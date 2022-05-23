@@ -37,8 +37,8 @@ In order to reproduce the results I have gotten (and which can be found in the "
 2) Make sure to place the script in the "src" folder and the data in the "in" folder. The data used for this project can is placed in the in folder.
 3) Run the script from the terminal and remember to pass the required arguments  - either (-fn (filename), if you want the script to run on only one file, or -dn (directory_name) if you want the script to run on the whole directory.
  -> Make sure to navigate to the main folder before executing the script - then you just have to type the following in the terminal: 
-"python src/collocates.py -fn {name of the desired filename}"  or,
-"python src/collocates.py -dn {name of the desired directory}"
+"python src/network_analysis.py -fn {name of the desired filename}"  or,
+"python src/network_analysis.py -dn {name of the desired directory}"
  
 
 This should give you the same results as I have gotten in the "out" folder.
