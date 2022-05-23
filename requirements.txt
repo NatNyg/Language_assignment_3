@@ -1,0 +1,6 @@
+# Required packages
+In order for this script to run, the following packages must firstly be installed:
+- pandas
+- networkx 
+- matplotlib
+
