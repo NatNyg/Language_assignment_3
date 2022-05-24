@@ -21,7 +21,7 @@ The repository includes three folders:
 
 ## Method
 The script contains two functions (besides the main function and parse_args function); 
-One that defines what to do if the user inputs the name of a directory, and one that defines what to do if the user inputs the name of a single file. Both of the functions essentially does the same - the directory one, just loops over each files in the directory and performs the previously mentioned steps on each file. 
+One that defines what to do if the user inputs the name of a directory, and one that defines what to do if the user inputs the name of directory and a single file. Both of the functions essentially does the same - the directory one just loops over each files in the directory and performs the previously mentioned steps on each file. 
 
 The functions performs the following steps:
 - loads the file using pandas read_csv function
@@ -34,14 +34,14 @@ The functions performs the following steps:
 In order to reproduce the results I have gotten (and which can be found in the "out" folder), a few steps has to be followed:
 
 1) Install the relevant packages - relevant packages for both scripts can be found in the "requirements.txt" file.
-2) Make sure to place the script in the "src" folder and the data in the "in" folder. The data used for this project can is placed in the in folder.
-3) Run the script from the terminal and remember to pass the required arguments  - either (-fn (filename), if you want the script to run on only one file, or -dn (directory_name) if you want the script to run on the whole directory.
+2) Make sure to place the script in the "src" folder and the data in the "in" folder. Ross has the data used for this project, but the script can also run on any other file or dictionary, as long as it has the same format and column names. 
+3) Run the script from the terminal and remember to pass the required arguments  - either -fn (filename) and -dn (directory_name) , if you want the script to run on only one file, or -dn (directory_name) if you want the script to run on the whole directory.
  -> Make sure to navigate to the main folder before executing the script - then you just have to type the following in the terminal: 
-"python src/network_analysis.py -fn {name of the desired filename}"  or,
+"python src/network_analysis.py -fn {name of the desired filename}" -dn {name of the desired directory} or,
 "python src/network_analysis.py -dn {name of the desired directory}"
  
 
-This should give you the same results as I have gotten in the "out" folder.
+This should give you the same results as I have gotten in the "out" folder, if you do it on the network data.
 
 ## Results
 
