@@ -33,7 +33,7 @@ The functions perform the following steps:
 
 In order to reproduce the results I have gotten (and which can be found in the "out" folder), a few steps has to be followed:
 
-1) Install the relevant packages - relevant packages for both scripts can be found in the "requirements.txt" file.
+1) Install the relevant packages - relevant packages for the script can be found in the "requirements.txt" file.
 2) Make sure to place the script in the "src" folder and the data in the "in" folder. Ross has the data used for this project, but the script can also run on any other file or dictionary, as long as it has the same format and column names. 
 3) Run the script from the terminal and remember to pass the required arguments  - either -fn (filename) and -dn (directory_name) , if you want the script to run on only one file, or -dn (directory_name) if you want the script to run on the whole directory.
  -> Make sure to navigate to the main folder before executing the script - then you just have to type the following in the terminal: 
@@ -49,4 +49,4 @@ This should give you the same results as I have gotten in the "out" folder if yo
 
 ## Results
 
-As addressed my results are placed in the "out" - here is a .csv and .png file for each of the files that I have performed network analysis on. The .png is useful for a quick overview of the relation between different nodes in the network, making it easy to see which of the nodes are the most central ones. The .csv file provides more elaborate information on each of the nodes in the network, including the degree, centrality, and eigenvector values. This makes it possible for the user to understand the network in terms of the relations.   
+As addressed my results are placed in the "out" - I have made two subfolders in the out - one that contains a csv file for each of the files in the network_data, and one that contains a png file for each of the files that I have performed network analysis on. The .png is useful for a quick overview of the relation between different nodes in the network, making it easy to see which of the nodes are the most central ones. The .csv file provides more elaborate information on each of the nodes in the network, including the degree, centrality, and eigenvector values. This makes it possible for the user to understand the network in terms of the relations.   
